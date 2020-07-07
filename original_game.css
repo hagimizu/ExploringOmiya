@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.background{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(194,252,255,0.6);
+}
+
+.index_body {
+  background-image: url("photos/omiya_station.jpg");
+  background-size: cover;
+}
+.selection_body{
+  position: relative;
+  background-size: auto;
+  display: table;
+  margin: 0 auto;
+}
+#map_container{
+  position: relative;
+  background-image: url("photos/map.png");
+  background-size: cover;
+  display: block;
+  width: 642px;
+  height: 260px;
+}
+
+.station{
+    position: absolute;
+    left: 160px;
+    top: 190px;
+    width: 90px;
+    height: 45px;
+    border: 2px solid green; /* take off */
+}
+
+.museum{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 210px;
+    height: 50px;
+    border: 2px solid red; /* take off */
+}
+
+.shrine{
+    position: absolute;
+    left: 275px;
+    top: 50px;
+    width: 215px;
+    height: 50px;
+    border: 2px solid orange; /* take off */
+}
+
+a:hover{
+    background-color: rgba(256, 256, 256, .5);
+}

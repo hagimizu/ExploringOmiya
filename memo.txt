@@ -1,0 +1,8 @@
+index.html
+↓
+selection.html
+
+アクション要素どこかに追加
+
+To add pxelation
+http://www.retromancers.com/retro/
