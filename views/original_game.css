@@ -9,7 +9,7 @@
 
 .index_body {
   background-image: url("../photos/omiya_station.jpg");
-  background-size: cover;
+  background-size: contain;
 }
 .selection_body{
   position: relative;
