@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Battle</title>
+    <style>
+    
+      body{
+        background-color: black;
+      }
+      #scene {
+        position: relative;
+        background-image: url("omiya_station.jpg");
+        width: 1000px;
+        height: 563px;
+        display: table;
+        margin: auto;
+      }
+      
+      #hero{
+        position:absolute;
+        left: 20px;
+        top: 120px;
+      }
+      
+      #enemy{
+        position:absolute;
+        left: 600px;
+        top: 40px;
+      }
+      
+      #menu{
+        position: absolute;
+        left: 120px;
+        top: 420px;
+        width: 700px;
+        height: 130px;
+        background-color: rgba(0, 0, 100, .7);
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        font-size: 22px;
+        padding: 0 0 0 40px;
+        font-family: sans-serif;
+      }
+      
+      p,ul,li{
+        margin: 10px 0;
+      }
+      
+      li{
+        list-style: none;
+      }
+      
+      li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  
+  <!-- optional HTML -->
+  <body>
+    <div id = "scene">
+      <img src = "../photos/merin.png" id = "hero">
+      <img src = "../photos/nu.png" id = "enemy">
+      
+      <div id = "menu">
+        <p>What will you do?</p>
+        <ul>
+          <li>Fight</li>
+          <li>Run</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

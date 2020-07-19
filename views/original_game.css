@@ -1,29 +1,79 @@
 @charset "UTF-8";
 
-.background{
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(194,252,255,0.6);
+body{
+  margin: 0;
 }
+a, ul, li{
+  list-style: none;
+  color: white;
+}      
 
-.index_body {
-  background-image: url("../photos/omiya_station.jpg");
-  background-size: contain;
-}
-.selection_body{
-  position: relative;
-  background-size: auto;
-  display: table;
-  margin: 0 auto;
-}
+/* Definition of ID in abc order */
+
 #map_container{
   position: relative;
-  background-image: url("../photos/map.png");
+  background-image: url("../images/bg/map.png");
   background-size: cover;
   display: block;
   width: 642px;
   height: 260px;
+}
+
+#menu{
+  position: absolute;
+  left: 120px;
+  bottom: 0px;
+  width: 700px;
+  height: 130px;
+  background-color: rgba(0, 0, 100, .7);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  padding: 30 0 0 40px;
+  font-family: sans-serif;
+}
+
+#merin{
+  position:absolute;
+  left: 20px;
+  top: 120px;
+}
+
+#opponent{
+  position:absolute;
+  left: 600px;
+  top: 60px;
+}
+
+#station_container{}
+
+/* Difinition of CLASS in time series */
+
+.background{
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(194,252,255,.6);
+  width: 1000px;
+  height: 563px;
+  display: table;
+  margin: 0 auto;
+}
+
+.index_body {
+  background-image: url("../images/bg/toppage.jpg");
+  background-size: contain;
+}
+.selection_body{
+  background-size: auto;
+  display: table;
+  margin: 0 auto;
+}
+.station_body {
+  background: url("../images/bg/omiya_station.jpg") no-repeat;
+  background-size: contain;
 }
 
 .station{
